@@ -1,16 +1,33 @@
-/* {
-    background: rgb(255, 185, 185);
-}*/
+
+* {
+    box-sizing: border-box;
+}
 
 head {
-    background: white;
+    background: red;
 }
 
 body {
     background: white;
 }
 
-div#links {
-    color: blue;
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px;
 }
 
+.left, .right {
+    width: 25%;
+  }
+  
+  .middle {
+    width: 50%;
+
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

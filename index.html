@@ -1,23 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="style.css" />
-    <title>My Website</title>
-  </head>
-  <body>
-    <h1>Brian Perez</h1>
-    <script src="script.js"></script>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <title>My Website</title>
+    </head>
+    <body>
+        <h1>Brian Perez</h1>
+        <script src="script.js"></script>
 
-    <!--Create list of links-->
-    <div id="links">
-        <ul>
-            <li>option 1</li>
-            <li>option 2</li>
-            <li>option 3</li>
-        </ul>
+        <div class="row">
 
-    </div>
+            <!--Create list of links-->
+            <div class="column left" style="background-color:#aaa;"> 
+                <ul>
+                    <li>option 1 
+                        <a href=""></a>
+                    </li>
+                    <li>option 2
+                        <a href=""></a>
+                    </li>
+                    <li>option 3
+                        <a href=""></a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--Create main feed-->
+            <div class="column middle" style="background-color:#bbb;">
+                <p>body paragraph here</p>
+            </div>
+
+            <!--highlights section on the right-->
+            <div class="column right" style="background-color:#ccc;">
+                <ul>
+                    <li><img /></li> <!--not sure-->
+                    <li><h2>test text</h2></li>
+                </ul>   
+            </div>
+        </div>
 
 
-  </body>
+    </body>
 </html>
